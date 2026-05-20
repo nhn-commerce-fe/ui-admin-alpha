@@ -22,6 +22,7 @@
 <li class=""><strong><code>description</code>, <code>subText</code> 가 최대 2줄로 클램프</strong>됩니다 (v1 은 줄 수 제한 없음, 초과 시 말줄임)</li>
 <li class=""><strong>버튼·카운터의 시각</strong>이 ui-admin 네이티브 클래스(<code>ncua-btn</code>, <code>ncua-carousel-number-group</code>)로 변경</li>
 <li class=""><strong>CDN 경로</strong>가 <code>@ncds/step-guide/2.0/</code> 으로 분리됩니다. v1 사용처는 <code>@ncds/step-guide/1.0/</code> 그대로 동작.</li>
+<li class=""><strong><code>Step.element</code> 타입</strong>: <code>string | null</code> (CSS 선택자). HTMLElement 직접 전달은 지원하지 않습니다.</li>
 </ul>
 <h3 class="anchor anchorTargetStickyNavbar_ArNF" id="신규-기능">신규 기능<a href="https://nhn-commerce-fe.github.io/ui-admin-alpha/releases/step-guide/release-note-step-guide-2.0.0#%EC%8B%A0%EA%B7%9C-%EA%B8%B0%EB%8A%A5" class="hash-link" aria-label="신규 기능에 대한 직접 링크" title="신규 기능에 대한 직접 링크" translate="no">​</a></h3>
 <ul>
